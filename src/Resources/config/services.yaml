@@ -1,0 +1,8 @@
+services:
+  alvario_response_bundle.builder:
+    autoconfigure: true
+    class: alvario\ResponseBuilderBundle\ResponseBuilder
+
+  alvario_response_bundle.jma_array_adapter:
+    class: alvario\ResponseBuilderBundle\JMSArraySerializerAdapter
+    autoconfigure: true
