@@ -1,7 +1,7 @@
 <?php
 
 
-namespace alvario\ResponseBuilderBundle;
+namespace Alvario\ResponseBuilderBundle;
 
 interface SerializerInterface
 {

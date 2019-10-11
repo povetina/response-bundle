@@ -1,9 +1,9 @@
 <?php
 
-namespace alvario\ResponseBuilderBundle\DependencyInjection\Compiler;
+namespace Alvario\ResponseBuilderBundle\DependencyInjection\Compiler;
 
-use alvario\ResponseBuilderBundle\ResponseBuilder;
-use alvario\ResponseBuilderBundle\SerializerInterface;
+use Alvario\ResponseBuilderBundle\ResponseBuilder;
+use Alvario\ResponseBuilderBundle\SerializerInterface;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;

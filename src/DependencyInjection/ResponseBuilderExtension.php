@@ -1,9 +1,9 @@
 <?php
 
 
-namespace alvario\ResponseBuilderBundle\DependencyInjection;
+namespace Alvario\ResponseBuilderBundle\DependencyInjection;
 
-use alvario\ResponseBuilderBundle\ResponseBuilder;
+use Alvario\ResponseBuilderBundle\ResponseBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
