@@ -23,12 +23,12 @@ class JMSArraySerializerAdapter implements SerializerInterface
         $this->transformer = $transformer;
     }
 
-    public function serialize($data, $groups = null)
+    public function serialize($data, $groups = [])
     {
         return $this->transformer->toArray($data, $this->createContext($groups));
     }
 
-    public function deserialize($data, $type, $groups = null)
+    public function deserialize($data, $type, $groups = [])
     {
         $this->transformer->fromArray($data, $type, $this->createContext($groups, true));
     }

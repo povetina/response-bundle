@@ -15,7 +15,7 @@ class ResponseBuilder
     /**
      * @var array $serializationGroups
      */
-    private $serializationGroups;
+    private $serializationGroups = [];
     /**
      * @var SerializerInterface $serializerName
      */
